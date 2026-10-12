@@ -1,0 +1,82 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Seções do site */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+/* Imagem principal */
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+/* Links e botões */
+section a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+section a:hover {
+    background-color: gray;
+}
+
+/* Caixas dos títulos */
+.caixa {
+    background-color: #eeeeee;
+    margin: 15px;
+    padding: 15px;
+    border-left: 4px solid black;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
